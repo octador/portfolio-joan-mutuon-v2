@@ -1,33 +1,35 @@
 ---
 import './header.css';
-// const { origin } = Astro.props;
 import Logo from '../Logo.astro';
 ---
 
 <header class="header">
 	<div class="header__container">
-		<Logo name="Joan mutuon"/>
-		<nav class="links"   tabindex="0.1">
-			
-			<!-- <ul class="header__list">
-				{
-					origin.map((data) => (
-						<li>
-							<a class="menu__link" href={data.link}>
-								<span class="icon__container" >
-									<iconify-icon
-										class="icons"
-										icon={data.icon}
-										width="20"
-										height="20"
-									/>
-									{data.content}
-								</span>
-							</a>
-						</li>
-					))
-				}
-			</ul> -->
+		<Logo name="Joan Mutuon"/>
+		<nav class="links">
+			<button class="menu__btn">Menu</button>
+			<ul class="header__list">
+				<li><a class="menu__link" href="/">Accueil</a></li>
+				<li><a class="menu__link" href="#about">À propos</a></li>
+				<li><a class="menu__link" href="#portafolio">Projets</a></li>
+			</ul>
 		</nav>
 	</div>
 </header>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const menuBtn = document.querySelector('.menu__btn');
+    const menuList = document.querySelector('.header__list');
+
+    // Vérification que les éléments existent
+    if (menuBtn && menuList) {
+        menuBtn.addEventListener('click', () => {
+            menuBtn.classList.toggle('active');
+            menuList.classList.toggle('active');
+        });
+    } else {
+        console.error('aucun boutton de menu n\'a été trouvé');
+    }
+});
+</script>

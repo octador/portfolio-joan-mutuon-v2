@@ -24,7 +24,6 @@
 	flex-wrap: wrap;
 }
 
-
 .header .profile .header__title {
 	font-size: var(--text-title);
 	font-weight: 600;
@@ -36,7 +35,6 @@
 	align-items: center;
 	justify-content: space-evenly;
 	gap: 2rem;
-	margin-right: 4.4rem;
 }
 
 .header .links {
@@ -69,63 +67,42 @@
 .header .links a:hover::after {
 	transform: scale(1);
 }
+
 .icons {
 	display: none;
 }
+
 .menu__btn {
 	display: none;
 }
+
 @media screen and (max-width: 768px) {
 	.header {
 		padding: 1rem;
 	}
-	.header .links {
-		position: fixed;
-		width: 100%;
-		top: calc(100vh - 16rem);
-		justify-content: center;
-		align-items: center;
-		right: 0;
-		align-self: center;
+
+	.header .header__container {
 		flex-direction: column;
-		pointer-events: none;
+		align-items: center;
+		padding: 1rem;
+	}
+
+	.header .links {
+		flex-direction: column;
+		width: 100%;
 	}
 
 	.header .header__list {
-		margin-right: 0;
-		z-index: 2;
-		background: #1c0544;
-		justify-content: center;
-		align-items: center;
-		border-radius: 14px;
+		flex-direction: column;
 		width: 100%;
-		padding: 0.8rem 1rem;
+		gap: 1rem;
+		background: #1c0544;
+		padding: 0.8rem;
+		border-radius: 14px;
 		border: 1px solid #dc5898;
-		align-self: center;
-		opacity: 0;
-		pointer-events: none;
-	}
-	.links:focus-within .header__list {
-		opacity: 1;
-		pointer-events: all;
-	}
-	.links:focus-within .menu__btn {
-		opacity: 0;
-		pointer-events: none;
-	}
-	.links:not(:hover) .header__list {
-		opacity: 0;
-		pointer-events: none;
+		display: none; /* Masquer le menu par défaut */
 	}
 
-	.icon__container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	.icons {
-		display: block;
-	}
 	.menu__btn {
 		display: flex;
 		justify-content: center;
@@ -134,25 +111,12 @@
 		background: var(--hero-bg);
 		border-radius: 100px;
 		font-size: var(--text-x-large);
-		transition: 0.35s opacity;
-		max-width: -moz-max-content;
-		max-width: max-content;
 		color: #33f3c6;
-		position: absolute;
 		border: 2px solid #33f3c6;
-		pointer-events: all;
-		animation: linear scroll-btn;
-		animation-timeline: scroll();
+		cursor: pointer;
 	}
-}
 
-@keyframes scroll-btn {
-	0%,
-	1% {
-		opacity: 0;
-	}
-	2% {
-		opacity: inherit;
-
+	.menu__btn.active + .header__list {
+		display: flex; /* Afficher le menu lorsque le bouton est actif */
 	}
 }
