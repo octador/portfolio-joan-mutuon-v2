@@ -73,6 +73,7 @@
 }
 
 .menu__btn {
+	margin: 10px;
 	display: none;
 }
 
@@ -89,6 +90,7 @@
 
 	.header .links {
 		flex-direction: column;
+		align-items: center;
 		width: 100%;
 	}
 
@@ -100,10 +102,12 @@
 		padding: 0.8rem;
 		border-radius: 14px;
 		border: 1px solid #dc5898;
-		display: none; /* Masquer le menu par défaut */
+		display: none;
+		/* Masquer le menu par défaut */
 	}
 
 	.menu__btn {
+		margin: 10px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -116,7 +120,10 @@
 		cursor: pointer;
 	}
 
-	.menu__btn.active + .header__list {
-		display: flex; /* Afficher le menu lorsque le bouton est actif */
+	
+	.menu__btn.active+.header__list {
+		margin: 10px;
+		display: flex;
+
 	}
 }
