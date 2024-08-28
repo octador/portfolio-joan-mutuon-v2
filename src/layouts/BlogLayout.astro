@@ -3,7 +3,7 @@
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/header/Header.astro";
-import {  menuBlog } from "../components/data/menuData";
+
 const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 type Props = CollectionEntry<"blog">["data"];
 import "../styles/global.css"
@@ -27,7 +27,7 @@ import Footer from "../components/Footer/Footer.astro";
     <title> {title}</title>
   </head>
   <body>
-    <Header  origin={menuBlog} name="Jhon Doe"/>
+   
     <main class="w-full flex flex-col justify-center  items-center pt-[13rem]" >
       <div class="text-center" >
         <h1 class="text-4xl text-center font-extrabold color__gradiente mb-3" >{title}</h1>
