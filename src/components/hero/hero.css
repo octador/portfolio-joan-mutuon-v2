@@ -32,6 +32,7 @@
 }
 
 .hero .hero__container {
+	margin-top: 40px;
 	display: grid;
 	grid-template-columns: 1fr auto;
 	width: 100%;
@@ -70,10 +71,11 @@
 	}
 
 	.hero .hero__img {
-		max-width: 28rem;
+		max-width: 20rem;
 	}
 
 	.hero .hero__container {
+		margin-top: 20rem;
 		display: flex;
 		max-width: 100%;
 		gap: 0;
