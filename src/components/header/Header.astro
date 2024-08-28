@@ -24,12 +24,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Vérification que les éléments existent
     if (menuBtn && menuList) {
-        menuBtn.addEventListener('click', () => {
+        // Fonction pour basculer l'état du menu
+        const toggleMenu = () => {
             menuBtn.classList.toggle('active');
             menuList.classList.toggle('active');
-        });
+        };
+
+        // Ajout de l'événement click pour ouvrir/fermer le menu
+        menuBtn.addEventListener('click', toggleMenu);
+
+        // Fonction pour fermer le menu au défilement
+        const closeMenuOnScroll = () => {
+            if (menuList.classList.contains('active')) {
+                toggleMenu();
+            }
+        };
+
+        // Ajout de l'événement scroll pour fermer le menu
+        window.addEventListener('scroll', closeMenuOnScroll);
     } else {
-        console.error('aucun boutton de menu n\'a été trouvé');
+        console.error('aucun bouton de menu n\'a été trouvé');
     }
 });
+
 </script>
