@@ -17,62 +17,62 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		imgSrc: '/img/alpine.jpg',
+		title: 'Configurateur alpine',
+		skills: ['React', 'Tailwind'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Application React avec Redux Toolkit permettant de personnaliser les véhicules Alpine. Interface interactive avec prévisualisation en temps réel des options sélectionnées.',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
+		imgSrc: '/img/luxuryservice.jpg',
 		title: 'E-commerce',
 		skills: ['JavaScript', 'Bootstrap'],
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
+			' Découvrez mon site de recrutement de luxe, développé en Symfony. Une plateforme élégante et performante pour le secteur haut de gamme.',
+		demoURL: 'https://joan-luxury.projets.garage404.com',
 		repoURL: '',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
+		imgSrc: 'img/wordpress.jpg',
+		title: 'WP base R.G.P.D.',
 		skills: ['React', 'CSS'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
+			'Découvrez mon site WordPress conçu pour intégrer les fonctionnalités de base du RGPD. Une solution simple et efficace pour assurer la conformité tout en offrant une expérience utilisateur fluide.',
+		demoURL: 'https://vincent-joan-festival.projets.garage404.com/',
 		repoURL: '',
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://www.corse.mx/cdn/shop/files/tienda_lenceria-lenceria-hot_sale-ofertas-mexico-lenceria_seyx-encaje-corse_mx-corse_lenceria_1200_x_560_px_13.png?v=1712270274&width=1500',
-		title: 'Coffe Store',
+		imgSrc: 'img/drumppad.jpg',
+		title: 'sampleur',
 		skills: ['React', 'CSS'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
+			"Découvrez mon sampleur développé en JavaScript, utilisant l'écoute du DOM pour une gestion interactive et fluide des échantillons audio.",
+		demoURL: 'https://drump-pad.projets.garage404.com/',
 		repoURL: '',
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
+		imgSrc: 'img/themoutain.jpg',
+		title: 'Premiere integration ',
+		skills: [ 'CSS'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
+			"Découvrez The Mountain, un site où j'ai réalisé l'intégration d'une maquette en HTML et CSS. La conception est fidèle à la maquette, offrant une présentation élégante et responsive.",
+		demoURL: 'https://joan-the.moutain.projets.garage404.com/',
 		repoURL: '',
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		imgSrc: 'img/agricazone.jpg',
+		title: 'projet fin d\'étude',
+		skills: ['css',],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			"Découvrez Agricazone, mon projet de fin d'étude : un site dédié à la vente directe de produits agricoles. Facilitez les transactions entre producteurs et consommateurs avec une plateforme intuitive et efficace.",
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-right',
@@ -80,15 +80,33 @@ export const portafolioData = [
 ];
 
 const skillIcons = {
-	JavaScript: 'skill-icons:javascript',
-	React: 'skill-icons:react-dark',
-	Astro: 'skill-icons:astro',
-	CSS: 'skill-icons:css',
-	Sass: 'skill-icons:sass',
-	StyledComponents: 'skill-icons:styledcomponents',
-	Bootstrap: 'skill-icons:bootstrap',
-	Tailwind: 'skill-icons:tailwindcss-dark',
+    JavaScript: 'skill-icons:javascript',
+    React: 'skill-icons:react-dark',
+    Astro: 'skill-icons:astro',
+    CSS: 'skill-icons:css',
+    Sass: 'skill-icons:sass',
+    StyledComponents: 'skill-icons:styledcomponents',
+    Bootstrap: 'skill-icons:bootstrap',
+    Tailwind: 'skill-icons:tailwindcss-dark',
+    HTML: 'skill-icons:html',
+    NodeJS: 'skill-icons:nodejs-dark',
+    Git: 'skill-icons:git',
+    TypeScript: 'skill-icons:typescript',
+    Redux: 'skill-icons:redux',
+    NextJS: 'skill-icons:nextjs-dark',
+    VueJS: 'skill-icons:vuejs',
+    Angular: 'skill-icons:angular',
+    Python: 'skill-icons:python',
+    GraphQL: 'skill-icons:graphql',
+    Docker: 'skill-icons:docker',
+    MySQL: 'skill-icons:mysql-dark',
+    MongoDB: 'skill-icons:mongodb',
+    PHP: 'skill-icons:php-dark',
+    Laravel: 'skill-icons:laravel',
+    Figma: 'skill-icons:figma-dark',
+    Symfony: 'skill-icons:symfony' 
 };
+
 
 /**
  * @description Se mapea el portafolioData para que tenga los iconos de las habilidades

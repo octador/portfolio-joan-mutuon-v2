@@ -72,7 +72,25 @@ const skillIcons = {
     StyledComponents: 'skill-icons:styledcomponents',
     Bootstrap: 'skill-icons:bootstrap',
     Tailwind: 'skill-icons:tailwindcss-dark',
+    HTML: 'skill-icons:html',
+    NodeJS: 'skill-icons:nodejs-dark',
+    Git: 'skill-icons:git',
+    TypeScript: 'skill-icons:typescript',
+    Redux: 'skill-icons:redux',
+    NextJS: 'skill-icons:nextjs-dark',
+    VueJS: 'skill-icons:vuejs',
+    Angular: 'skill-icons:angular',
+    Python: 'skill-icons:python',
+    GraphQL: 'skill-icons:graphql',
+    Docker: 'skill-icons:docker',
+    MySQL: 'skill-icons:mysql-dark',
+    MongoDB: 'skill-icons:mongodb',
+    PHP: 'skill-icons:php-dark',
+    Laravel: 'skill-icons:laravel',
+    Figma: 'skill-icons:figma-dark',
+    Symfony: 'skill-icons:symfony' // Ajout de Symfony
 };
+
 
 /**
  * @description Maps portfolioData to include skill icons
