@@ -65,11 +65,14 @@
 
 @media screen and (max-width: 768px) {
 	.hero {
+		margin-top: 30%;
 		padding: 12rem 0 5rem 0;
 	}
+
 	.hero .hero__img {
 		max-width: 28rem;
 	}
+
 	.hero .hero__container {
 		display: flex;
 		max-width: 100%;
@@ -78,11 +81,13 @@
 		justify-content: center;
 		align-items: center;
 	}
+
 	.hero .text__content {
 		align-items: center;
 	}
 
 	.hero .hero__text {
+		margin-bottom: 20%;
 		font-size: var(--text-x-large);
 		text-align: center;
 	}
@@ -92,9 +97,11 @@
 	0% {
 		background-size: 200%;
 	}
+
 	50% {
 		background-position: 70%;
 	}
+
 	100% {
 		background-size: 100%;
 	}
