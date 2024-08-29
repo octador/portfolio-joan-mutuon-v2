@@ -41,6 +41,9 @@
 .contact__item {
 	margin-bottom: 0.5rem;
 }
+.contact__item a{
+	font-size: medium;
+}
 
 .contact__link {
 	display: flex;
