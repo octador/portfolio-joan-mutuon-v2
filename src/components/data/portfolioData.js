@@ -74,7 +74,7 @@ export const portafolioData = [
 		descripcion:
 			"Découvrez Agricazone, mon projet de fin d'étude : un site dédié à la vente directe de produits agricoles. Facilitez les transactions entre producteurs et consommateurs avec une plateforme intuitive et efficace. le site n'est pas en ligne actuellement",
 		demoURL: '',
-		repoURL: '',
+		repoURL: 'https://github.com/octador/agricazone-laravel',
 		anim: 'fade-right',
 	}
 ];
