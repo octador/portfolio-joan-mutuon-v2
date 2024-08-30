@@ -26,10 +26,15 @@ const { title } = Astro.props;
 
  <!-- Méta Tags -->
  <meta charset="UTF-8" />
- <meta name="description" content="Astro description" />
+ <meta name="description" content="Explorez mon portfolio, Joan Mutuon, développeur web et mobile fullstack junior à la recherche d'une alternance en tant que concepteur-développeur d'applications web. Avec une expertise en développement d'applications web et mobiles, je crée des solutions digitales innovantes pour répondre à vos besoins. Consultez mes projets et contactez-moi pour des opportunités" />
  <meta name="viewport" content="width=device-width, initial-scale=1" />
- 
  <meta name="generator" content={Astro.generator} />
+ <meta property="og:title" content="{title}" />
+ <meta property="og:description" content="Explorez mon portfolio, Joan Mutuon, développeur web et mobile fullstack junior à  la recherche d'une alternance en tant que concepteur-développeur d'applications web. Avec une expertise en développement  d'applications web et mobiles, je crée des solutions digitales innovantes pour répondre à vos besoins. Consultez mes  projets et contactez-moi pour des opportunités" />
+ <meta property="og:image" content="/favicon/apple-touch-icon.png" />
+ <meta property="og:url" content="https://portfolio-joan-mutuon-developpeur-web.netlify.app" />
+ <meta property="og:type" content="website" />
+
 
  <!-- Préconnexion et Feuilles de Style -->
  <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,6 +46,18 @@ const { title } = Astro.props;
 
  <!-- Script Externe -->
  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+
+ <script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "Person",
+	  "name": "Joan Mutuon",
+	  "jobTitle": "Développeur Web et Mobile Fullstack",
+	  "description": "Développeur web et mobile fullstack junior à la recherche d'une alternance en tant que concepteur-développeur d'applications web. Expertise en développement d'applications web et mobiles.",
+	  "url": "https://portfolio-joan-mutuon-developpeur-web.netlify.app"
+	}
+	</script>
+	
 
 		<title>{title}</title>
 	</head>
