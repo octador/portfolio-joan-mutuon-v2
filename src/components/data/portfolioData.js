@@ -22,8 +22,8 @@ export const portafolioData = [
 		skills: ['React', 'Tailwind'],
 		descripcion:
 			'Application React avec Redux Toolkit permettant de personnaliser les véhicules Alpine. Interface interactive avec prévisualisation en temps réel des options sélectionnées.',
-		demoURL: '',
-		repoURL: '',
+		demoURL: 'https://configurateur-alpine.netlify.app',
+		repoURL: 'https://github.com/octador/app-alpine',
 		anim: 'fade-right',
 	},
 	{
@@ -33,7 +33,7 @@ export const portafolioData = [
 		descripcion:
 			' Découvrez mon site de recrutement de luxe, développé en Symfony. Une plateforme élégante et performante pour le secteur haut de gamme.',
 		demoURL: 'https://joan-luxury.projets.garage404.com',
-		repoURL: '',
+		repoURL: 'https://github.com/octador/Luxury-Service',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
@@ -54,7 +54,7 @@ export const portafolioData = [
 		descripcion:
 			"Découvrez mon sampleur développé en JavaScript, utilisant l'écoute du DOM pour une gestion interactive et fluide des échantillons audio.",
 		demoURL: 'https://drump-pad.projets.garage404.com/',
-		repoURL: '',
+		repoURL: 'https://github.com/octador/Vanilla-Front-Drumpad',
 		anim: 'fade-left',
 	},
 	{
