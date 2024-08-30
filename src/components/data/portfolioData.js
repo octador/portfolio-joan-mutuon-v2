@@ -37,16 +37,16 @@ export const portafolioData = [
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
-	{
-		imgSrc: 'img/wordpress.jpg',
-		title: 'WP base R.G.P.D.',
-		skills: ['React', 'CSS'],
-		descripcion:
-			'Découvrez mon site WordPress conçu pour intégrer les fonctionnalités de base du RGPD. Une solution simple et efficace pour assurer la conformité tout en offrant une expérience utilisateur fluide.',
-		demoURL: 'https://vincent-joan-festival.projets.garage404.com/',
-		repoURL: '',
-		anim: 'fade-left',
-	},
+	// {
+	// 	imgSrc: 'img/wordpress.jpg',
+	// 	title: 'WP base R.G.P.D.',
+	// 	skills: ['React', 'CSS'],
+	// 	descripcion:
+	// 		'Découvrez mon site WordPress conçu pour intégrer les fonctionnalités de base du RGPD. Une solution simple et efficace pour assurer la conformité tout en offrant une expérience utilisateur fluide.',
+	// 	demoURL: 'https://vincent-joan-festival.projets.garage404.com/',
+	// 	repoURL: '',
+	// 	anim: 'fade-left',
+	// },
 	{
 		imgSrc: 'img/drumppad.jpg',
 		title: 'sampleur',
@@ -72,7 +72,7 @@ export const portafolioData = [
 		title: 'projet fin d\'étude',
 		skills: ['css',],
 		descripcion:
-			"Découvrez Agricazone, mon projet de fin d'étude : un site dédié à la vente directe de produits agricoles. Facilitez les transactions entre producteurs et consommateurs avec une plateforme intuitive et efficace.",
+			"Découvrez Agricazone, mon projet de fin d'étude : un site dédié à la vente directe de produits agricoles. Facilitez les transactions entre producteurs et consommateurs avec une plateforme intuitive et efficace. le site n'est pas en ligne actuellement",
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-right',
