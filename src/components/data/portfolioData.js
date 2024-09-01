@@ -17,6 +17,16 @@
  */
 export const portafolioData = [
 	{
+		imgSrc: 'img/agricazone.jpg',
+		title: 'projet fin d\'étude',
+		skills: ['css',],
+		descripcion:
+			"Découvrez Agricazone, mon projet de fin d'étude : un site dédié à la vente directe de produits agricoles. Facilitez les transactions entre producteurs et consommateurs avec une plateforme intuitive et efficace. le site n'est pas en ligne actuellement",
+		demoURL: '',
+		repoURL: 'https://github.com/octador/agricazone-laravel',
+		anim: 'fade-right',
+	},
+	{
 		imgSrc: '/img/alpine.jpg',
 		title: 'Configurateur alpine',
 		skills: ['React', 'Tailwind'],
@@ -66,17 +76,8 @@ export const portafolioData = [
 		demoURL: 'https://joan-the.moutain.projets.garage404.com/',
 		repoURL: '',
 		anim: 'fade-left',
-	},
-	{
-		imgSrc: 'img/agricazone.jpg',
-		title: 'projet fin d\'étude',
-		skills: ['css',],
-		descripcion:
-			"Découvrez Agricazone, mon projet de fin d'étude : un site dédié à la vente directe de produits agricoles. Facilitez les transactions entre producteurs et consommateurs avec une plateforme intuitive et efficace. le site n'est pas en ligne actuellement",
-		demoURL: '',
-		repoURL: 'https://github.com/octador/agricazone-laravel',
-		anim: 'fade-right',
 	}
+	
 ];
 
 const skillIcons = {
